@@ -96,7 +96,7 @@ main{
     background-color: rgb(255, 181, 233);
 }
 
-.amarillo-claro{
+.amarillo-claro {
     width: 95%;
     height: 30px;
     background-color:yellow;
@@ -115,4 +115,142 @@ footer{
     width: 96%;
     height: 33%;
     background-color:yellow;
+}
+
+/* ---- FORMATO TABLET ------------------- */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+   .contenedor-gris-01 {
+        width: 90%;
+    }
+    
+    .red_central {
+        width: 50%;
+    }
+    
+    .contenedor-naranja {
+        width: 90%;
+    }
+    
+    .amarillo{
+        width: 90%;
+    }
+    
+    main{
+        flex-direction:column ;
+        height: 400px;
+        background-color: yellow;
+    }
+    
+    .contenedor-gris-02{
+        width: 90%;
+        height: 48%;
+    }
+    
+    .azul {
+        width: 42%;
+        height: 15%;
+    }
+    
+    .azul-claro {
+        width: 90%;
+        height: 15%;
+    }
+    
+    .contenedor-rojo {
+        width: 90%;
+        height: 31%;
+        background-color:rgb(255, 109, 109);
+
+    }
+
+    .amarillo-claro {
+        width: 90%;
+        height: 22%;
+        background-color:rgb(255, 255, 138);
+    }
+    
+    .amarillo-footer {
+        width: 90%;
+    }
+
+}
+
+/* ---- FORMATO MÓVIL ------------------- */
+
+@media screen and (max-width: 767px)  {  
+
+    header{
+
+        height: 390px;
+    }
+    
+    .contenedor-gris-01 {
+        flex-direction:column ;
+        flex-wrap: wrap;
+        width: 90%;
+        height: 54%;   
+    }
+    
+    .red_central {
+        width: 90%;
+        height: 14%;
+    }
+
+    .red_lateral {
+        width: 90%;
+        height: 14%;
+    }
+    
+    .contenedor-naranja {
+        width: 90%;
+        height: 23%;
+    }
+    
+    .amarillo{
+        width: 90%;
+    }
+    
+    main{
+        flex-direction:column ;
+        flex-wrap: wrap;
+        height: 555px;
+        background-color: rgb(255, 232, 22);
+    }
+    
+    .contenedor-gris-02{
+        flex-direction:column ;
+        width: 90%;
+        height: 59%;
+        background-color: rgb(8, 28, 58);
+    }
+    
+    .azul {
+        width: 90%;
+        height: 9%;
+    }
+    
+    .azul-claro {
+        width: 90%;
+        height: 9%;
+    }
+    
+    .contenedor-rojo {
+        width: 90%;
+        height: 24%;
+        background-color:rgb(255, 109, 109);
+
+    }
+
+    .amarillo-claro {
+        width: 90%;
+        height: 22%;
+        background-color:rgb(255, 255, 138);
+    }
+    
+    .amarillo-footer {
+        width: 90%;
+    }
+
 }
